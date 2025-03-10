@@ -1,0 +1,51 @@
+/* EntryPage.css */
+
+.entry-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('C:\Users\HP\OneDrive\Pictures\hotel3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (min-width: 600px) {
+    .button-group {
+      flex-direction: row;
+    }
+  }

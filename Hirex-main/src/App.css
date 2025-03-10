@@ -1,0 +1,15 @@
+/* src/App.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
